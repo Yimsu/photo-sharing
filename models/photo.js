@@ -9,6 +9,7 @@ module.exports = class Photo extends Sequelize.Model {
                 unique: true,
             }
 
+            
         }, {
             sequelize,
             timestamps: true,
